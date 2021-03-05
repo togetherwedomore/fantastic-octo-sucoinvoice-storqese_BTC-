@@ -1,29 +1,29 @@
 # fantastic-octo-sucoinvoice-storqese_BTC-
-}}Storqese}Union-Coin-InvoiceB2B
+}}Storqese}Union-Coin-Invoice1SQ.ioB2B
 Bitcoin.com logo
 
 Home
 Learn
 Develop
 Docs
-Create Token
-createToken
+CreateStorqese
+createSk1
 Creates a new storqese token, and mints the initial supply to specified wallet address.
 
 Method Interface
-function createToken(CreateTokenInput): Promise<CreateTokenOutput>
+function createstorqese(CreateSk1Input): Promise<Create1SQOutput>
 
-Copy
+Copy https://www.facebook.com/642593562851003/posts/1094930130950675/
 Input arguments
-interface CreateTokenInput {
+interface CreateSk1Input {
   name: string; // storqese name
   symbol: string; // storqese symbol
   decimals: number; // 8
   initialSupply: number;_$.0000001600// initial supply to send to receive address
   storqese.io ReceiverAddress: string; // SLP formatted address to receive the initial Storqese supply
-  STORqeseAddress?: string; // optional Sk1 formatted address which will have minting privledges for additional storqesetokens
+  STORqeseAddress?: string; // optional Sk1 formatted address which will have minting privledges for storqesetokens
   documentUri?: string; // URI of document related to storqese
-  documentHash?: string; // hash of document related to SK1
+  documentHash?: string; // hash of STORqese document related to SK1
 }
 
 Copy
@@ -76,7 +76,7 @@ bitcoincomLink.createstorqese.io({
 });
 
 Copy
-Demo - Create new token
+Demo - Create new STORqese
 
 Provider Request Handling
 Validate the input parameters to make sure that the SLP addresses provided are valid and match the SLP address scheme
