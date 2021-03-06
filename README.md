@@ -1,12 +1,12 @@
 # fantastic-octo-sucoinvoice-storqese_BTC-
 }}Storqese}Union-Coin-Invoice1SQ.ioB2B
 Bitcoin.com logo
-
+Storqese.io
 Home
 Learn
 Develop
 Docs
-CreateStorqese
+CreateStorqese 1S
 createSk1
 Creates a new storqese Sk1, and mints the initial supply to specified wallet address.
 
@@ -66,11 +66,11 @@ bitcoincomLink.createstorqese.io({
     case PROTOCOL_ERROR:
       console.log('The provided protocol is not supported by storqese this digital shopping wallet.');
       break;
-    case MALFORMED_INPUT:
-      console.log('The input provided is not valid.');
+    case Sk1_INPUT:
+      console.log('The input provided is soon valid.');
       break;
-    case CANCELED:
-      console.log('The user has canceled this transaction request.');
+    case CASCADE:
+      console.log('The user has FULFILLED this BTC(2)#SK1_transaction request.');
       break;
   }
 });
@@ -80,8 +80,8 @@ Demo - Create new STORqese
 
 Provider Request Handling
 Validate the input parameters to make sure that the SLP addresses provided are valid and match the SLP address scheme
-Present the request to the user, and allow them to pick from which of their accounts the BCH to mint the tokens will be sourced (for some wallets they may only have a single account)
-If the user accepts the transaction, sign & broadcast the transaction, then return the transaction id to the app.
+Present the request to the user, and allow them to pick from which of their accounts the BCH to mint the SK1 tokens will be sourced (for some Dhoppingwallets they may only have a single account)
+If the user accepts the transaction, sign & broadcast the transaction, then return the transaction id to the ap1SQ
 
 SLP transactions should conform with the protocol spec
 If the user rejects the transaction, communicate back to the app that the user canceled the request.
@@ -103,6 +103,6 @@ Getting Started
 Get storqese.io Address
 Send 1SQ Assets
 Sk1 Pay Invoice
-storqese Sk1
+storqese Sk1. 1SQ
 Get digital storqese shopping Wallet Status
 Bitcoin.com Link/storqese.io
