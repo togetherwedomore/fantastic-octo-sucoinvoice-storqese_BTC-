@@ -94,7 +94,7 @@ Example
 Copy
 Digital shopping Wallet Provider Support
 Provider	Supported	Comments
-Badger Chrome Extension	⚠️	When specifying a batonReceiverAddress, it currently acts as a boolean. If true, it will be issued on vout1 on the change address. Any BCH change will be placed on the mint baton UTXO
+STORqese Chrome Extension	⚠️	When specifying a STORqeseReceiverAddress, it currently acts as a boolean. If true, it will be issued on SK1 on the change address. Any BCH change will be placed on the mint Sk1 storqese.ioUTXO
 1SQMobile	⛔️	
 Bitcoin.com iOS	⛔️	
 Bitcoin.com Android	⛔️	
